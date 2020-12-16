@@ -1,0 +1,12 @@
+.detail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .back-button {
+    display: block;
+    border: none;
+    margin: 16px;
+    padding: 16px;
+  }
+}

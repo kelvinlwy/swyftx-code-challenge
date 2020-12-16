@@ -1,0 +1,35 @@
+.page-wrapper {
+  display: block;
+  width: 100%;
+}
+
+.list {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  .item {
+    border: 1px solid gray;
+    padding: 8px;
+
+    //display: flex;
+    //width: 100%;
+    //border: 1px solid black;
+    //justify-content: space-evenly;
+    //align-content: center;
+
+    .col {
+      text-align: left;
+      padding: 8px;
+    }
+  }
+}
+
+.link {
+  cursor: pointer;
+  color: inherit;
+
+  &:hover {
+    color: darkblue;
+  }
+}
